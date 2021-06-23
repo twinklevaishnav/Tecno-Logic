@@ -1,0 +1,262 @@
+@import url('../css/fonts.css');
+@import url("https://fonts.googleapis.com/css?family=Bungee|Hind|PT+Sans|Pacifico|Poppins|Lobster");
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+    --tomato-color: #ff433d;
+    --yellow-color: #ffb347;
+    --megenta-color: rgba(168, 2, 168, 0.897);
+    --lime-color: rgba(8, 248, 80, 0.932);
+    --light-orange: #ff6215;
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    /*      theme font-family   */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin : 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic : 'Livvic', cursive;
+     --poppins: "Poppins", sans-serif;
+     --bungee: "Bungee", cursive;
+     --lobster: "Lobster", cursive;
+     --pacifico: "Pacifico", cursive;
+
+}
+
+
+/* ---------------- Global Classes ---------------*/
+
+
+
+/* ----------x------ Global Classes ---------x------*/
+
+.navbar {
+    background-color: #002f49a2;
+  }
+  .navbar-brand {
+    padding-left: 30px;
+    font-family: var(--lobster);
+    font-size: 2rem;
+    color: var(--yellow-color);
+  }
+  
+  .nav-item {
+    padding: 0em 1.3em;
+  }
+  .nav-link {
+    font-family: var(--poppins);
+    color: whitesmoke;
+    font-size: 1.1em;
+  }
+  .nav-link:hover {
+    color: var(--light-orange);
+  }
+  
+  .heading .h1 {
+    font-family: var(--bungee);
+    font-size: 7vmin;
+    padding-top: 28vmin;
+    color: var(--yellow-color);
+  }
+  
+  .heading .h1 + span {
+    color: var(--yellow-color);
+  }
+  
+  .heading .p {
+    padding: 0em 13vmin;
+    color: rgb(70, 65, 65);
+    font-size: 3.5vmin;
+    font-family: var(--pacifico);
+  }
+  
+  .heading > .btn1,
+  .btn2 {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    background:
+    radial-gradient(circle at 50% 0,
+      rgba(255,0,0,.5),
+      rgba(255,0,0,0) 70.71%),
+    radial-gradient(circle at 6.7% 75%,
+      rgba(0,0,255,.5),
+      rgba(0,0,255,0) 70.71%),
+    radial-gradient(circle at 93.3% 75%,
+      rgba(0,255,0,.5),
+      rgba(0,255,0,0) 70.71%) beige;
+     border-radius: 50%;
+    
+    font-family: var(--poppins);
+    color: white;
+    border:#0f0f0f;
+  }
+  
+  .heading > .btn2 {
+    background-color: var(--tomato-color);
+    background:
+    radial-gradient(circle at 50% 0,
+      rgba(255,0,0,.5),
+      rgba(255,0,0,0) 70.71%),
+    radial-gradient(circle at 6.7% 75%,
+      rgba(0,0,255,.5),
+      rgba(0,0,255,0) 70.71%),
+    radial-gradient(circle at 93.3% 75%,
+      rgba(0,255,0,.5),
+      rgba(0,255,0,0) 70.71%) beige;
+     border-radius: 50%;
+    border: 0px;
+    color: white;
+  }
+  .heading > .btn1:hover,
+  .btn2:hover {
+    background:  #7a9bd1 0%;
+
+  }
+  
+  .heading {
+    margin-bottom: 45vmin;
+  }
+  
+  #myVideo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -999;
+
+  }
+/*----------navbar---------------*/
+
+/*                     Section 2                          */
+
+ .section-1 .heading-1{
+
+     margin-top: 8%;
+ }
+ .section-1 .heading-2{
+     margin-bottom: 5%;
+     font-size: 39px;
+ }
+.section-1 .para-1{
+     width: 60%;
+     margin-left: 20%;
+     margin-bottom: 5%;
+}
+.section-1 .card-text, .para-1{
+    color: rgb(0,0,0,0.59 );
+}
+.section-1{
+  margin-bottom: 8%;
+}
+.section-1 .card{
+    transition: all 1s ease;
+}
+.section-1 .card img:hover{
+      transform: scale(1.2);
+    
+}
+/* section 2*/
+.section-2 .container-fluid{
+     
+     background-image: url('/images/still.png');
+     background-size: cover;
+     background-attachment: fixed;
+    }
+.section-2 .heading-1{
+
+   margin-top: 20%;
+   margin-bottom: 4%;
+   font-family: 'Righteous';
+   width: 80%;
+   color: whitesmoke;
+}
+.section-2 .para{
+  width: 80%;
+  font-family: 'Ubuntu';
+  color: whitesmoke;
+  margin-bottom: 7%;
+}
+.section-2 .btn{
+  margin-bottom: 15%;
+  width: 30%;
+  padding: 2% 5%;
+}
+/* x section x 2*/
+
+/*  section  3*/
+.section-3{
+   margin-top: 6%;
+}
+
+.section-3 i{
+   color: #00E8E8;
+}
+.section-3 p{
+   
+  color: rgb(0,0,0,0.59);
+}
+
+/* x section  x3*/
+/********** section 4 **************/
+
+.section-4 {
+  padding: 20vmin 0vmin;
+}
+
+.section-4 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  height: 50%;
+  border-radius: 0.2em;
+}
+
+.section-4 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-4 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-4 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-4 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*   site content  */
+/* .video-parallax{
+  position: fixed
+  } */
+/*        x      Viewport less then or equal to 750px     
